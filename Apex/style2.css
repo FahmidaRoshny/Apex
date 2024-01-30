@@ -1,0 +1,77 @@
+nav{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    color: black;
+}
+a{
+    display: flex;
+    text-align: left;
+    padding: 10px 10px;
+    color: white;
+}
+ul{
+    display: flex;
+    text-align: left;
+    padding: 10px 10px; 
+    list-style: none;
+    width: 100%;
+    color: white;
+
+}
+li{
+    color: white;
+}
+.back{
+    background-image:url("img/apexhome.jpeg");
+    height: 400px;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.blk{
+    text-align: center;
+    color: white;
+}
+.flw{
+    color: white;
+    font-size: 30px;
+    padding: 20px 120px;
+    
+}
+button{
+    height: 40px;
+    width: 8%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.hi{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    position:relative ;
+   
+
+}
+.imgs{
+    background-image: url("img/juta\ jama\ bag.jpeg");
+    height: 300px;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    margin-left:120px ;
+    position: absolute;
+    z-index: 1;
+}
+video {
+    width: 40%;
+    height: 500px;
+    position:absolute;
+    padding-left: 50px;
+    bottom: 0px;
+    right: 250px;
+   
+  }
